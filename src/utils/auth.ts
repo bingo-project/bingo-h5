@@ -1,7 +1,7 @@
 import Cookies from "js-cookie";
 
 // cookie key 前缀
-const keyPrefix = "vue3_h5_template_";
+const keyPrefix = "bingo_";
 
 export function getCookie(key: string) {
   return Cookies.get(`${keyPrefix}${key}`);

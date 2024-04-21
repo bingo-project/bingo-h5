@@ -43,7 +43,7 @@ watch(() => $locale.value, updateList);
         target="_blank"
       >
         <svg-icon class="text-[20px] mr-[8px]" name="github" />
-        <h3 class="font-bold text-[18px] my-[4px]">Vue3-h5-template</h3>
+        <h3 class="font-bold text-[18px] my-[4px]">Bingo</h3>
         <svg-icon class="text-[12px] ml-[5px]" name="link" />
       </a>
     </div>
