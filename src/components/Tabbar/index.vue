@@ -38,6 +38,13 @@ const tabbarData = reactive([
     to: {
       name: "About"
     }
+  },
+  {
+    icon: "user-o",
+    title: computed(() => $t("demo.tabbar.my")),
+    to: {
+      name: "My"
+    }
   }
 ]);
 </script>

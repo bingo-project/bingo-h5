@@ -4,7 +4,8 @@
     "tabbar": {
       "home": "首页",
       "tools": "工具",
-      "about": "关于"
+      "about": "关于",
+      "my": "我的"
     },
     "details": {
       "vue3": "Vue3 + Vite4",

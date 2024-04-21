@@ -4,7 +4,8 @@
     "tabbar": {
       "home": "Home",
       "tools": "Tools",
-      "about": "About"
+      "about": "About",
+      "my": "My"
     },
     "details": {
       "vue3": "Vue3 + Vite4",

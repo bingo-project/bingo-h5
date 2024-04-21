@@ -8,6 +8,7 @@ declare namespace I18nType {
         home: string;
         tools: string;
         about: string;
+        my: string;
       };
       details: {
         vue3: string;
