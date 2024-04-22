@@ -1,7 +1,15 @@
 {
+  "app": {
+    "name": "Bingo",
+    "description": "基于 Vue3 全家桶、TypeScript、Vite 构建工具，开箱即用的 H5 移动端项目基础模板。"
+  },
   "auth": {
     "login": "登录",
-    "register": "注册"
+    "register": "注册",
+    "username": "用户名",
+    "password": "密码",
+    "usernameRequired": "请填写用户名",
+    "passwordRequired": "请填写密码"
   },
   "tabbar": {
     "home": "首页",

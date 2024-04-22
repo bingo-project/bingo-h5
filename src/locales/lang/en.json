@@ -1,7 +1,15 @@
 {
+  "app": {
+    "name": "Bingo",
+    "description": "Basic template for an H5 mobile project, based on Vue 3 ecosystem, TypeScript, and Vite build tool, ready to use."
+  },
   "auth": {
     "login": "Sign in",
-    "register": "Sign up"
+    "register": "Sign up",
+    "username": "Username",
+    "password": "Password",
+    "usernameRequired": "Username is required",
+    "passwordRequired": "Password is required"
   },
   "tabbar": {
     "home": "Home",

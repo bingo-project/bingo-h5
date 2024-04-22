@@ -2,6 +2,10 @@ declare namespace I18nType {
   type LangType = "zh-cn" | "en";
 
   interface Schema {
+    app: {
+      name: string;
+      description: string;
+    };
     auth: {
       login: string;
       register: string;
