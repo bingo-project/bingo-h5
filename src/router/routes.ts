@@ -1,8 +1,36 @@
 import Layout from "@/layout/index.vue";
+import Pure from "@/layout/pure.vue";
 import type { RouteRecordRaw } from "vue-router";
 import Demo from "@/views/demo/index.vue";
+import { $t } from "@/locales";
 
 const routes: Array<RouteRecordRaw> = [
+  {
+    path: "/",
+    name: "auth",
+    component: Pure,
+    redirect: { name: "Login" },
+    children: [
+      {
+        path: "/login",
+        name: "Login",
+        component: () => import("@/views/auth/login.vue"),
+        meta: {
+          title: $t("auth.login"),
+          noCache: true
+        }
+      },
+      {
+        path: "/register",
+        name: "Register",
+        component: () => import("@/views/auth/register.vue"),
+        meta: {
+          title: $t("auth.register"),
+          noCache: true
+        }
+      }
+    ]
+  },
   {
     path: "/",
     name: "root",
@@ -14,7 +42,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Demo",
         component: Demo,
         meta: {
-          title: "主页"
+          title: $t("tabbar.home")
         }
       },
       {
@@ -22,7 +50,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Tools",
         component: () => import("@/views/tools/index.vue"),
         meta: {
-          title: "工具"
+          title: $t("tabbar.tools")
         }
       },
       {
@@ -30,7 +58,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "About",
         component: () => import("@/views/about/index.vue"),
         meta: {
-          title: "关于",
+          title: $t("tabbar.about"),
           noCache: true
         }
       },
@@ -39,7 +67,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "My",
         component: () => import("@/views/my/index.vue"),
         meta: {
-          title: "我的",
+          title: $t("tabbar.my"),
           noCache: true
         }
       }

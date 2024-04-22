@@ -1,12 +1,16 @@
 {
+  "auth": {
+    "login": "登录",
+    "register": "注册"
+  },
+  "tabbar": {
+    "home": "首页",
+    "tools": "工具",
+    "about": "关于",
+    "my": "我的"
+  },
   "demo": {
     "description": "基于 Vue3 全家桶、TypeScript、Vite 构建工具，开箱即用的 H5 移动端项目基础模板。",
-    "tabbar": {
-      "home": "首页",
-      "tools": "工具",
-      "about": "关于",
-      "my": "我的"
-    },
     "details": {
       "vue3": "Vue3 + Vite4",
       "typescript": "TypeScript",

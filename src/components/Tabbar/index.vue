@@ -20,28 +20,28 @@ const active = ref(0);
 const tabbarData = reactive([
   {
     icon: "wap-home-o",
-    title: computed(() => $t("demo.tabbar.home")),
+    title: computed(() => $t("tabbar.home")),
     to: {
       name: "Demo"
     }
   },
   {
     icon: "gem-o",
-    title: computed(() => $t("demo.tabbar.tools")),
+    title: computed(() => $t("tabbar.tools")),
     to: {
       name: "Tools"
     }
   },
   {
     icon: "user-o",
-    title: computed(() => $t("demo.tabbar.about")),
+    title: computed(() => $t("tabbar.about")),
     to: {
       name: "About"
     }
   },
   {
     icon: "user-o",
-    title: computed(() => $t("demo.tabbar.my")),
+    title: computed(() => $t("tabbar.my")),
     to: {
       name: "My"
     }

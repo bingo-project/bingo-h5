@@ -1,12 +1,16 @@
 {
+  "auth": {
+    "login": "Sign in",
+    "register": "Sign up"
+  },
+  "tabbar": {
+    "home": "Home",
+    "tools": "Tools",
+    "about": "About",
+    "my": "My"
+  },
   "demo": {
     "description": "Basic template for an H5 mobile project, based on Vue 3 ecosystem, TypeScript, and Vite build tool, ready to use.",
-    "tabbar": {
-      "home": "Home",
-      "tools": "Tools",
-      "about": "About",
-      "my": "My"
-    },
     "details": {
       "vue3": "Vue3 + Vite4",
       "typescript": "TypeScript",
@@ -24,7 +28,7 @@
       "eslint": "ESLint",
       "loading": "First screen loading animation",
       "eruda": "Development environment debugging panel"
-      }
+    }
   },
   "tools": {
     "successBtn": "Successful Request",

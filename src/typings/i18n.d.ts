@@ -2,14 +2,18 @@ declare namespace I18nType {
   type LangType = "zh-cn" | "en";
 
   interface Schema {
+    auth: {
+      login: string;
+      register: string;
+    };
+    tabbar: {
+      home: string;
+      tools: string;
+      about: string;
+      my: string;
+    };
     demo: {
       description: string;
-      tabbar: {
-        home: string;
-        tools: string;
-        about: string;
-        my: string;
-      };
       details: {
         vue3: string;
         typescript: string;
