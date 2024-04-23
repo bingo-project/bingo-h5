@@ -8,8 +8,12 @@
     "register": "注册",
     "username": "用户名",
     "password": "密码",
+    "passwordRepeat": "确认密码",
     "usernameRequired": "请填写用户名",
-    "passwordRequired": "请填写密码"
+    "passwordRequired": "请填写密码",
+    "passwordConfirmFailed": "两次输入的密码不一致",
+    "registerNow": "立即注册",
+    "forgotPassword": "忘记密码？"
   },
   "tabbar": {
     "home": "首页",

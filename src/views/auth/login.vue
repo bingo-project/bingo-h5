@@ -40,4 +40,11 @@ const onSubmit = values => {
       </van-button>
     </div>
   </van-form>
+
+  <van-cell>
+    <van-row justify="space-between">
+      <a href="#register">{{ $t("auth.registerNow") }}</a>
+      <a href="#password">{{ $t("auth.forgotPassword") }}</a>
+    </van-row>
+  </van-cell>
 </template>

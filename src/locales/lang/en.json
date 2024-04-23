@@ -8,8 +8,12 @@
     "register": "Sign up",
     "username": "Username",
     "password": "Password",
+    "passwordRepeat": "Repeat Password",
     "usernameRequired": "Username is required",
-    "passwordRequired": "Password is required"
+    "passwordRequired": "Password is required",
+    "passwordConfirmFailed": "Password confirm failed",
+    "registerNow": "Register now",
+    "forgotPassword": "Forgot password?"
   },
   "tabbar": {
     "home": "Home",
